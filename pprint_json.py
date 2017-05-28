@@ -8,8 +8,8 @@ def load_data(filepath):
         print('No file in directory')
         exit()
     with open(filepath, 'r', encoding='utf-8') as file:
-        data = json.load(file)
-        return data
+        open_file = json.load(file)
+        return open_file
 
 
 def pretty_print_json(file_json):
