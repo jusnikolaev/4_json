@@ -6,7 +6,7 @@ Pretty JSON viewer.
 
 Example of script launch on Linux, Python 3.5:
 
-$ python3 pprint_json.py --path <path to file>
+$ python3 pprint_json.py --path "filepath"
 <pre>
     <code>
 [
