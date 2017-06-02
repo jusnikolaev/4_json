@@ -7,7 +7,8 @@ Pretty JSON viewer.
 Example of script launch on Linux, Python 3.5:
 
 $ python3 pprint_json.py --path <path to file>
-
+<pre>
+    <code>
 [
     {
         "Cells": {
@@ -23,8 +24,8 @@ $ python3 pprint_json.py --path <path to file>
                     "PublicPhone": ""
                 }
 ]
-
-
+    </code>
+</pre>
 # Project Goals
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
