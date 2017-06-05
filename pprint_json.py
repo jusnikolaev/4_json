@@ -7,8 +7,8 @@ def load_data(filepath):
     if not os.path.exists(filepath):
         return False
     with open(filepath, 'r', encoding='utf-8') as file:
-        open_file = json.load(file)
-        return open_file
+        json_file = json.load(file)
+        return json_file
 
 
 def pretty_print_json(file_json):
