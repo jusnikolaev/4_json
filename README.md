@@ -5,25 +5,26 @@ Pretty JSON viewer.
 # Quickstart
 
 Example of script launch on Linux, Python 3.5:
-
-$ python3 pprint_json.py --path "filepath"
 <pre>
     <code>
-[
-    {
-        "Cells": {
-            "Address": "",
-            "AdmArea": "",
-            "ClarificationOfWorkingHours": ,
-            "District": "",
-            "IsNetObject": "",
-            "Name": "",
-            "OperatingCompany": "",
-            "PublicPhone": [
-                {
-                    "PublicPhone": ""
-                }
-]
+$ python3 pprint_json.py --path "filepath"
+    </code>
+</pre>
+<pre>
+    <code>
+{
+   "firstName": "",
+   "lastName": "",
+   "address": {
+       "streetAddress": "",
+       "city": "",
+       "postalCode": 
+   },
+   "phoneNumbers": [
+       "",
+       ""
+   ]
+}
     </code>
 </pre>
 # Project Goals
